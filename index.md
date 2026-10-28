@@ -42,7 +42,7 @@ tk:
 
 hero:
   name: "曲靖师范学院"
-  text: "生活指南"
+  text: "生活指南(备份)"
   tagline: 由热心同学制作和编写
   actions:
     - theme: brand
