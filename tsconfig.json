@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "types": ["vitepress", "vite/client"],
+    "skipLibCheck": true,
+    "strict": true
+  },
+  "include": [
+    ".vitepress/**/*",
+    "env.d.ts",
+    "**/*.md"
+  ]
+}
