@@ -68,13 +68,21 @@ const teekConfig = defineTeekConfig({
       title: "友情链接",
       links: [
         { name: "学校官网", link: "https://www.qjnu.edu.cn" },
+        { name: "阳光高考网", link: "https://gaokao.chsi.com.cn/sch/schoolInfoMain--schId-533.dhtml" },
+        { name: "生活质量指北", link: "https://cn.colleges.chat/universities/qu-jing-shi-fan-xue-yuan/" },
+        { name: "神人高校网", link: "https://srgaoxiao.com/school/%E6%9B%B2%E9%9D%96%E5%B8%88%E8%8C%83%E5%AD%A6%E9%99%A2" },
+        { name: "曲师贴吧", link: "https://tieba.baidu.com/f?kw=%E6%9B%B2%E9%9D%96%E5%B8%88%E8%8C%83%E5%AD%A6%E9%99%A2" },
+        { name: "微博超话", link: "https://weibo.com/p/1008086b72c07ba842b4a63dc5456f16afd6ab" },
       ],
     },
     {
       title: "指南",
       links: [
-        { name: "开始阅读", link: "/guide/start" },
-        { name: "关于指南", link: "/guide/about" },
+        { name: "开始阅读", link: "/qjnu-life-guide/updates/start" },
+        { name: "共同创作", link: "/qjnu-life-guide/updates/join-us" },
+        { name: "更新日志", link: "/qjnu-life-guide/updates/default" },
+        { name: "归档", link: "/qjnu-life-guide/archives" },
+        { name: "关于指南", link: "/qjnu-life-guide/updates/about" },
       ],
     },
   ],
@@ -107,11 +115,20 @@ const teekConfig = defineTeekConfig({
     const longTime = 6 * 30 * 24 * 60 * 60 * 1000;
     if (frontmatter.date && Date.now() - new Date(frontmatter.date).getTime() > longTime) return tip;
   },
+  comment: {
+    provider: "giscus",
+    options: {
+      repo: "Fhy-1234/qjnu-life-guide",
+      repoId: "R_kgDOVaOM4A",
+      category: "Show and tell",
+      categoryId: "DIC_kwDOVaOM4M4DJ1sO",
+    },
+  },
 });
 
 const RSS: RSSOptions = {
   title: "曲靖师范学院生活指南",
-  baseUrl: "https://fhy-1234.github.io/qjnu-life-guide",
+  baseUrl: "https://fhy-1234.github.io/",
   copyright: "Copyright (c) 2026, CCBY-NC-SA 4.0",
 };
 
@@ -146,9 +163,11 @@ export default defineConfig({
     },
     nav: [
       { text: "首页", link: "/" },
-      { text: "指南", link: "/guide/start.html" },
-      { text: "共同创作", link: "/guide/join-us.html" },
+      { text: "指南", link: "/updates/start.html" },
+      { text: "共同创作", link: "/updates/join-us.html" },
+      { text: "整活文章", link: "/funny/start.html" },
       { text: "归档", link: "/archives" },
+      { text: "关于", link: "/updates/about" },
       { text: "学校官网", link: "https://www.qjnu.edu.cn" },
     ],
     socialLinks: [

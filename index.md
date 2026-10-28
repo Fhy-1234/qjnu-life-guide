@@ -16,8 +16,28 @@ tk:
     list:
       - name: "学校官网"
         link: "https://www.qjnu.edu.cn"
-        avatar: "https://www.qjnu.edu.cn/static/picture/15162610884.png"
+        avatar: "https://t1.chei.com.cn/common/xh/10684.jpg"
         desc: "曲靖师范学院官方网站"
+      - name: "阳光高考评分"
+        link: "https://gaokao.chsi.com.cn/sch/schoolInfoMain--schId-533.dhtml"
+        avatar: "https://t1.chei.com.cn/gaokao/assets/web/images/nav-logo.png"
+        desc: "官方信息平台"
+      - name: "大学生活质量指北"
+        link: "https://cn.colleges.chat/universities/qu-jing-shi-fan-xue-yuan/"
+        avatar: "https://cn.colleges.chat/img/favicon.webp"
+        desc: "影响生活的匿名问卷整合"
+      - name: "神人高校网"
+        link: "https://srgaoxiao.com/school/%E6%9B%B2%E9%9D%96%E5%B8%88%E8%8C%83%E5%AD%A6%E9%99%A2"
+        avatar: "https://srgaoxiao.com/logo.jpg"
+        desc: "大学生真实评价"
+      - name: "曲靖师范学院贴吧"
+        link: "https://tieba.baidu.com/f?kw=%E6%9B%B2%E9%9D%96%E5%B8%88%E8%8C%83%E5%AD%A6%E9%99%A2"
+        avatar: "https://tb3.bdstatic.com/tb/pc/pc-main-core/static/img/home_icon.8190bc67.png"
+        desc: "百度贴吧"
+      - name: "曲靖师范学院超话"
+        link: "https://weibo.com/p/1008086b72c07ba842b4a63dc5456f16afd6ab"
+        avatar: "https://h5.sinaimg.cn/upload/1005/891/2024/01/04/weibologo.png"
+        desc: "微博"
 
 
 hero:
@@ -27,13 +47,13 @@ hero:
   actions:
     - theme: brand
       text: 开始阅读
-      link: /guide/start
+      link: /updates/start
     - theme: alt
       text: 更新日志
       link: /updates/default
   image:
     src: /img/logo.png
-    alt: Teek
+    alt: Logo
 
 features:
   - title: 这是什么项目？
