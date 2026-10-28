@@ -64,6 +64,8 @@ features:
     details: 请点击上方“开始阅读”按钮或者手动访问“欢迎阅读生活指南”文章。
 ---
 
+此站点和仓库为备份请[查看正式版](https://qjnu-life.github.io/qjnu-life-guide)！
+
 该项目遵循CCBY-NC-SA 4.0协议开源
 
 部分图片来自学校官网，如有侵权请通过页脚邮箱联系删除！
